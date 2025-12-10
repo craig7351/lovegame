@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galgame Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game-container">
+        <!-- Background Layer -->
+        <div id="background-layer"
+            style="background-image: url('https://placehold.co/1920x1080/222/fff?text=Title+Screen');"></div>
+
+        <!-- Character Layer -->
+        <div id="character-layer"></div>
+
+        <!-- UI Layer -->
+        <div id="ui-layer">
+            <div id="dialogue-box">
+                <div id="speaker-name"></div>
+                <div id="dialogue-text"></div>
+            </div>
+
+            <div id="choices-container" style="display: none;"></div>
+        </div>
+
+        <!-- Main Menu -->
+        <div id="main-menu">
+            <h1>我的學妹哪有這麼可愛</h1>
+            <button id="start-btn">開始遊戲</button>
+        </div>
+    </div>
+
+    <script src="data/gameScript.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
